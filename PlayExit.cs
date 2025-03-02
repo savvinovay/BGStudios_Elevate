@@ -9,11 +9,11 @@ public class PlayExit : MonoBehaviour
     {
         Application.Quit();
     }
-    public void MenuPressed()
+    public void StartMenuPressed()
     {
         SceneManager.LoadScene(0);
     }
-    public void DailyPressed()
+    public void SelectCityPressed()
     {
         SceneManager.LoadScene(1);
     }
@@ -21,15 +21,15 @@ public class PlayExit : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
-    public void ProfilePressed()
+    public void SandboxPressed()
     {
         SceneManager.LoadScene(3);
     }
-    public void StorePressed()
+    public void City1Pressed()
     {
         SceneManager.LoadScene(4);
     }
-    public void DayPressed()
+    public void City2Pressed()
     {
         SceneManager.LoadScene(5);
     }
